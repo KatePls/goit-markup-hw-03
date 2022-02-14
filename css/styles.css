@@ -29,6 +29,10 @@ list-style: none;
 /*============ END  COMPONENTS  ===================*/
 
 /*==============  HEADER  =========================*/
+.header{
+display: flex;
+align-items: center;
+}
 /*-----LOGO-----*/
 .logo{
 font-family: var(--additional-font-family);
@@ -120,6 +124,12 @@ letter-spacing: 0.03em;
 color: var(--main-dark-color);
 }
 
+.conteiner{
+display: flex;
+justify-content: space-between;
+padding: 0 215px;
+}
+
 .about-our-team{
 background-color: var(--backgr-color-section);
 }
@@ -166,6 +176,13 @@ color: var(--brand-color);
 /*============ END FOOTER  ===================*/
 
 /*============  PORTFOLIO STYLE  ===================*/
+.portfolio-list-buttons{
+display: flex;
+justify-content: center;
+}
+.portfolio-list-buttons :not(:last-child){
+    margin-right: 8px;
+}
 .portfolio-button{
 font-weight: 500;
 font-size: 16px;
