@@ -153,9 +153,7 @@ margin-right: 50px;
     justify-content: space-between;
     margin-bottom: 94px;
 }
-.about-description-list>:not(:last-child){
-    margin-right: 30px;
-}
+
 .title-about{
 margin-bottom: 10px;
 font-weight: bold;
