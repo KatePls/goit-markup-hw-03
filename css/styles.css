@@ -53,9 +53,10 @@ padding: 94px 0;
 
 /*==============  HEADER  =========================*/
 .header{
-padding: 24px 0;;
+padding: 24px 0;
 border-bottom: 1px solid var(--border-line-color);
 }
+
 .header-conteiner{
 display: flex;
 align-items: center;
