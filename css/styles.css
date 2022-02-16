@@ -120,18 +120,20 @@ margin-right: 50px;
 /*==============   HERO  ===================*/
 .hero{
     padding: 200px 0;
+    text-align: center;
 }
 .hero-title {   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light-color);
     margin-bottom: 30px;
     }
 .button-hero{
+    padding: 10px 32px;
+    border: none;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
@@ -152,6 +154,9 @@ margin-right: 50px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 94px;
+}
+.about-description-list>li{
+    width: 270px;
 }
 .about-description-list>:not(:last-child){
     margin-right: 30px;
@@ -194,23 +199,23 @@ background-color: var(--backgr-color-section);
 .team-item{
 background-color: var(--main-light-color);
 }
+.team-name-wrapper{
+padding: 30px 0;
+text-align: center;
+}
 .team-name{
-margin-top: 30px;
 margin-bottom: 10px;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-dark-color);
 }
 
 .team-position{
-margin-bottom: 30px;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-medium-color);    
 }
@@ -238,7 +243,7 @@ color: var(--main-medium-color-opacity);
 .contact-footer-color:hover, .contact-footer-color:focus{
 color: var(--brand-color);
 }
-.footer-conteiner{
+.footer{
 padding: 60px 0;
 }
 /*============ END FOOTER  ===================*/
